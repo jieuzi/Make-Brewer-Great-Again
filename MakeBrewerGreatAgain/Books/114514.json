@@ -1,0 +1,29 @@
+{
+  "id": "114514",
+  "title": "Tanaka Card",
+  "background": "114514",
+  "width": 600,
+  "height": 360,
+  "designWidth": 300,
+  "designHeight": 180,
+  "draggable": true,
+  "zoomable": false,
+  "chrome": [
+    {
+      "type": "button",
+      "id": "close",
+      "action": "close",
+      "sprite": "paper_buttons_close1",
+      "x": 282,
+      "y": 4,
+      "w": 14,
+      "h": 15
+    }
+  ],
+  "pages": [
+    {
+      "name": "名片",
+      "elements": []
+    }
+  ]
+}

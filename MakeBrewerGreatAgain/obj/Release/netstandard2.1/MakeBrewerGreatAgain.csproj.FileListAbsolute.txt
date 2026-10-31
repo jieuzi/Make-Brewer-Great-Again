@@ -1,0 +1,10 @@
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\bin\Release\netstandard2.1\MakeBrewerGreatAgain.deps.json
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\bin\Release\netstandard2.1\MakeBrewerGreatAgain.dll
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\bin\Release\netstandard2.1\MakeBrewerGreatAgain.pdb
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\obj\Release\netstandard2.1\MakeBrewerGreatAgain.csproj.AssemblyReference.cache
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\obj\Release\netstandard2.1\MakeBrewerGreatAgain.GeneratedMSBuildEditorConfig.editorconfig
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\obj\Release\netstandard2.1\MakeBrewerGreatAgain.AssemblyInfoInputs.cache
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\obj\Release\netstandard2.1\MakeBrewerGreatAgain.AssemblyInfo.cs
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\obj\Release\netstandard2.1\MakeBrewerGreatAgain.csproj.CoreCompileInputs.cache
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\obj\Release\netstandard2.1\MakeBrewerGreatAgain.dll
+D:\steam\steamapps\common\Probably Stolen\Modding\MakeBrewerGreatAgain\obj\Release\netstandard2.1\MakeBrewerGreatAgain.pdb

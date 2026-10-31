@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<AssemblyName>MakeBrewerGreatAgain</AssemblyName>
+		<RootNamespace>MakeBrewerGreatAgain</RootNamespace>
+		<Nullable>disable</Nullable>
+		<!-- 工程位于 <游戏>\Modding\MakeBrewerGreatAgain\ -->
+		<GameDir>$(MSBuildProjectDirectory)\..\..</GameDir>
+		<ManagedDir>$(GameDir)\Probably Stolen_Data\Managed</ManagedDir>
+		<!-- 编译后自动把 DLL 和清单装到 Mods\MakeBrewerGreatAgain\，不要手拷 bin\obj 进去 -->
+		<ModInstallDir>$(GameDir)\Mods\MakeBrewerGreatAgain</ModInstallDir>
+		<!-- 安装用的 UTF-8 清单副本（由 PrepareManifest 生成，见下） -->
+		<Utf8Manifest>$(MSBuildProjectDirectory)\obj\utf8\manifest.xml</Utf8Manifest>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>$(ManagedDir)\UnityEngine.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.TextRenderingModule">
+			<HintPath>$(ManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.ImageConversionModule">
+			<HintPath>$(ManagedDir)\UnityEngine.ImageConversionModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>$(ManagedDir)\0Harmony.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- 每个资源目录单独列出，并用 SubDir 记住目录名：
+		     只写 "Textures\**" 的话 %(RecursiveDir) 会丢掉 Textures 这一层，文件会装到模组根目录。 -->
+		<ModFile Include="$(Utf8Manifest)" />
+		<ModFile Include="preview.png" Condition="Exists('preview.png')" />
+		<ModFile Include="Textures\**\*.*" SubDir="Textures\" />
+		<ModFile Include="Sounds\**\*.*" SubDir="Sounds\" />
+		<ModFile Include="Localization\**\*.*" SubDir="Localization\" />
+		<ModFile Include="LootTables\**\*.*" SubDir="LootTables\" />
+		<ModFile Include="Books\**\*.*" SubDir="Books\" />
+		<None Remove="Textures\**;Sounds\**;Localization\**;LootTables\**;Books\**" />
+	</ItemGroup>
+
+	<!-- 安装前把清单转成 UTF-8：游戏用严格 UTF-8 解析，编辑器另存成 GBK 时模组会被整个跳过。 -->
+	<Target Name="PrepareManifest" BeforeTargets="BeforeBuild">
+		<Exec Command="powershell -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\Tools\EnsureUtf8Manifest.ps1&quot; -Source &quot;$(MSBuildProjectDirectory)\manifest.xml&quot; -Destination &quot;$(Utf8Manifest)&quot;" />
+	</Target>
+
+	<Target Name="InstallMod" AfterTargets="Build">
+		<MakeDir Directories="$(ModInstallDir)" />
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModInstallDir)" />
+		<Copy SourceFiles="@(ModFile)" DestinationFiles="@(ModFile->'$(ModInstallDir)\%(SubDir)%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('%(ModFile.FullPath)')" />
+		<Message Importance="high" Text="模组已安装到 $(ModInstallDir)" />
+	</Target>
+
+</Project>

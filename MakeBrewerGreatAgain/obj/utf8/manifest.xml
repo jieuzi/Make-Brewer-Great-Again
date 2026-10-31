@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+	<ID>make_brewer_great_again</ID>
+	<Name>让酿酒再次伟大（make brewer great again）</Name>
+	<Author>孑U子</Author>
+	<ModVersion>1.0</ModVersion>
+	<Description>从红魔鬼那里买酒瓶用来酿酒，如果你愿意，你也可以搞来啤酒，然后买椟还珠（并非还）。添加一套酿造啤酒的工艺。添加了新作物啤酒花。添加了新机器恒温发酵机，能够加速酒的发酵，同时能够提升酒的品级，也能当催陈器用。</Description>
+	<GameVersions>
+		<Version>0.46</Version>
+	</GameVersions>
+	<Prerequisites />
+	<Assemblies>
+		<Assembly>MakeBrewerGreatAgain.dll</Assembly>
+	</Assemblies>
+	<Capabilities />
+</Manifest>
