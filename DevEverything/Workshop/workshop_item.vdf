@@ -1,0 +1,12 @@
+"workshopitem"
+{
+	"appid"		"4348910"
+	"publishedfileid"		"3830868700"
+	"contentfolder"		"D:\\steam\\steamapps\\common\\Probably Stolen\\Mods\\DevEverything"
+	"previewfile"		"D:\\steam\\steamapps\\common\\Probably Stolen\\Modding\\DevEverything\\Workshop\\preview.png"
+	"visibility"		"0"
+	"title"		"DevEverything（中文调试按钮）"
+	"description"		"添加了一个物品商店，类似于Debug Spawner，添加生成装有各种水的瓶装水（大）按钮，添加了按照物品导出精灵图的按钮"
+	"tags"		"Mod,Simplified Chinese,tools,Utilities,UI"
+	"changenote"		"首次发布：物品商店、瓶装水生成、按物品导出精灵图。"
+}

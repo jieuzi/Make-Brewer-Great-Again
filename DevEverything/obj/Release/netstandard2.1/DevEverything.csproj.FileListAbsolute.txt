@@ -1,0 +1,10 @@
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\bin\Release\netstandard2.1\DevEverything.deps.json
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\bin\Release\netstandard2.1\DevEverything.dll
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\bin\Release\netstandard2.1\DevEverything.pdb
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\obj\Release\netstandard2.1\DevEverything.csproj.AssemblyReference.cache
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\obj\Release\netstandard2.1\DevEverything.GeneratedMSBuildEditorConfig.editorconfig
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\obj\Release\netstandard2.1\DevEverything.AssemblyInfoInputs.cache
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\obj\Release\netstandard2.1\DevEverything.AssemblyInfo.cs
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\obj\Release\netstandard2.1\DevEverything.csproj.CoreCompileInputs.cache
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\obj\Release\netstandard2.1\DevEverything.dll
+D:\steam\steamapps\common\Probably Stolen\Modding\DevEverything\obj\Release\netstandard2.1\DevEverything.pdb

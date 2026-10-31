@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+	<ID>dev_everything</ID>
+	<Name>DevEverything</Name>
+	<Author>孑U子</Author>
+	<ModVersion>1.0</ModVersion>
+	<Description>添加一个Debug按钮，用来生成物品。</Description>
+	<GameVersions>
+		<Version>0.46</Version>
+	</GameVersions>
+	<Prerequisites />
+	<Assemblies>
+		<Assembly>DevEverything.dll</Assembly>
+	</Assemblies>
+	<Capabilities />
+</Manifest>
