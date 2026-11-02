@@ -1,0 +1,120 @@
+"workshopitem"
+{
+	"appid"		"4348910"
+	"publishedfileid"		"3830839435"
+	"contentfolder"		"D:\\steam\\steamapps\\common\\Probably Stolen\\Mods\\MakeBrewerGreatAgain"
+	"previewfile"		"D:\\steam\\steamapps\\common\\Probably Stolen\\Modding\\MakeBrewerGreatAgain\\Workshop\\preview.png"
+	"visibility"		"0"
+	"title"		"让酿酒再次伟大（make brewer great again）"
+	"description"		"[h1]你是否还在苦恼于酿酒瓶子不够用，你是否感觉只能酿造莓果酒过于单调，你是否因为联系不上田所浩二而感到崩溃，这个模组能够解决你的烦恼。[/h1]
+
+本模组围绕「酿酒」扩了一条完整的产业链：从清洗啤酒瓶，到种植大麦和啤酒花，再到酿造啤酒；或者种植营养果来酿造营养果原浆，再通过蒸馏器蒸馏出酒精用来调配努特加，最后用努特加封盖器包装好你的努特加。
+
+[hr][/hr]
+
+[h1]一、酿酒[/h1]
+
+从红魔鬼酿酒厂的工人那里搞来用过的空瓶，拿到水龙头下冲一冲，就是能酿酒的干净啤酒瓶。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/01-%E9%85%BF%E9%80%A0%E6%B5%81%E7%A8%8B.png[/img]
+
+[h1]二、两种新作物[/h1]
+
+大麦：18 工作量成熟，提前收割还能获得麦芽，在合适的时候收割还能够增产种子。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/02-%E5%A4%A7%E9%BA%A6%E7%A7%8D%E6%A4%8D.png[/img]
+
+啤酒花：21 工作量成熟，多年生，是提升啤酒品质的关键物品，但在空间站上只有红魔鬼酒厂手里有种子，获取途径或许与一则传说有关。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/09-%E5%95%A4%E9%85%92%E8%8A%B1%E7%A7%8D%E6%A4%8D.png[/img]
+
+[h1]三、精酿啤酒[/h1]
+
+原料放多少、麦芽与啤酒花的比例、瓶里的水质，都会影响啤酒的品质。总共有四个等级：顶级精酿、精酿啤酒、私酿啤酒、私酿毒药。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/03-%E5%95%A4%E9%85%92%E8%AF%84%E7%BA%A7.png[/img]
+
+[h1]四、自制努特加[/h1]
+
+[h2]1、营养果原浆[/h2]
+
+营养果整颗、切块、切碎都能进酿酒，发酵结束时，一部分水会按评分换成酒精，得到营养果原浆。切得越碎，产量越高，加入麦芽进行糖化也能提高酒精产量。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/04-%E8%90%A5%E5%85%BB%E6%9E%9C%E5%8E%9F%E6%B5%86%E8%AF%84%E7%BA%A7.png[/img]
+
+[h2]2、蒸馏[/h2]
+
+软管加废金属，拼出土法蒸馏器。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/05-%E8%92%B8%E9%A6%8F%E5%99%A8.png[/img]
+
+把蒸馏器架到加热板上，输入放原浆、输出放空瓶，等加热到酒精的沸点，就能分毫不差的收集到空瓶里。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/06-%E8%92%B8%E9%A6%8F%E6%8F%90%E7%BA%AF%E9%85%92%E7%B2%BE.png[/img]
+
+[h2]3、灌装努特加[/h2]
+
+洗干净的努特加瓶灌满，用努特加封盖器一封，机器会自动检测酒精浓度和剩下的水质，打上对应的标签和瓶盖：
+
+· 酒精 ≥71% → 生命之水
+· 21%~70%，水质好 → ETALOV
+· 21%~70%，水质一般 → “伏特加”
+· 21%~70%，水质差 → “第二好”
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/07-%E5%8A%AA%E7%89%B9%E5%8A%A0%E4%BA%A7%E7%BA%BF.png[/img]
+
+[h1]五、恒温发酵机[/h1]
+
+杰克逊博士那里买的大机器：有催陈机的基础功能。能够加速酒类的发酵，还能提高其中发酵的酒的品质。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/08-%E6%81%92%E6%B8%A9%E5%8F%91%E9%85%B5%E6%9C%BA.png[/img]
+
+[h1]六、其它小东西[/h1]
+
+· 搅拌机配方：啤酒花搅出咖啡豆糊，大麦、麦芽也能搅碎。
+· 茶匙与镊子：从可合并的原料里精确取出一份，10 千卡 / 1 千卡
+· 刀可以切营养果：每 100 千卡能切出一块营养果块，块能够切成营养果碎，会损失一半的热量，但是能够提升营养果原浆的酒精含量
+· 空瓶回收项目：人脉升级，解锁后拨 114514 找田所浩二订空瓶
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/screenshots/03-114514%E5%90%8D%E7%89%87.png[/img]
+
+[hr][/hr]
+
+[h1]七、室内温室[/h1]
+
+王尔德那里点出「建造温室」（2700）之后，夜间去处里多出一个「室内温室」，人脉页面也多出一页「温室」。温室里有一台控制台：左边是模组栏，右边是 15×24 的水培架，架子上开局就送两台「温室水培系统」。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/greenhouse-overview.png[/img]
+
+[h2]1、温室水培系统[/h2]
+
+5×3 的机器，只在温室里运行：夜间效率是普通水培系统的两倍，而且水肥条件恒定最佳——水质、营养液、矿物质都不再拖后腿，产量永远按最高档结算。买下「建造温室」之后，杰克逊博士和退休农夫都会开始卖它。
+
+[h2]2、温室模组 I[/h2]
+
+300 信用点。没买之前，控制台里模组这一栏整个不显示；买了之后出现 9×7 的模组格，可以塞原版的通用模组来提升温室里所有水培系统的效率。
+
+[h2]3、送货员[/h2]
+
+500 信用点雇一个。每天开张时，如果温室里有收成，他会带着「第 N 天的包裹」上门，一个 12 信用点，付钱之后就是你的了，双击包裹能把里面的作物全部倒进仓库。没货可送的日子他不会出现，所以不会白跑一趟。
+
+[h2]4、园丁[/h2]
+
+500 信用点雇一个。把种子卖给他（他以 -999% 的价格「收购」，等于白拿），种子会进温室种子队列；拉下卷帘门结束营业时，他会按顺序把种子一颗颗种进空着的种子槽里。种不了的东西他不会收，并在日志里说明。
+
+[h2]5、每晚流程[/h2]
+
+关店 → 园丁把种子种进空槽 → 夜间水培系统推进一夜进度（双倍速度） → 送货员把收成打包成包裹 → 第二天醒来买包裹、开包裹。
+
+[h2]6、独立存档[/h2]
+
+温室内容单独存在模组自己的存档文件里（按存档位分开），跟着游戏存档/读档一起写读，不占用也不修改原版存档；机器、种子、生长进度、产物、模组都会原样保留。
+
+[hr][/hr]
+
+[h1]全部物品一览[/h1]
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/items-overview.png[/img]"
+	"tags"		"Mod,Simplified Chinese,Gameplay,Quality of Life"
+	"changenote"		"空努特加瓶和软管也……哦不对，这俩是拾荒的权重太低调整数值来的:P"
+}
