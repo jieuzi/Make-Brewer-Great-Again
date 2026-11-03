@@ -6,19 +6,121 @@
 	"previewfile"		"D:\\steam\\steamapps\\common\\Probably Stolen\\Modding\\MakeBrewerGreatAgain\\Workshop\\preview.png"
 	"visibility"		"0"
 	"title"		"让酿酒再次伟大（make brewer great again）"
-	"description"		"你是否还在苦恼于酿酒瓶子不够用，你是否感觉只能酿造莓果酒过于单调，你是否因为联系不上田所浩二而感到崩溃，这个模组能够解决你的烦恼。
+	"description"		"[h1]你是否还在苦恼于酿酒瓶子不够用，你是否感觉只能酿造莓果酒过于单调，你是否因为联系不上田所浩二而感到崩溃，这个模组能够解决你的烦恼。[/h1]
 
-[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/MakeBrewerGreatAgain/Workshop/screenshots/01-%E7%89%A9%E5%93%81%E4%B8%80%E8%A7%88.png[/img]
+本模组围绕「酿酒」扩了一条完整的产业链：从清洗啤酒瓶，到种植大麦和啤酒花，再到酿造啤酒；或者种植营养果来酿造营养果原浆，再通过蒸馏器蒸馏出酒精用来调配努特加，最后用努特加封盖器包装好你的努特加。
 
-允许你从红魔鬼酒厂的员工那里买酒瓶用来酿酒，当然，如果你愿意，你也可以搞来啤酒，然后买椟还珠（并非还）。
+另外还加了一处夜间去处「室内温室」：不用水、不用电、产量最高档的水培系统，外加送货员和园丁两名雇员，见第七章。
 
-添加一套完整的酿造啤酒工艺：干净的啤酒瓶、啤酒花作物与啤酒花种子、四种啤酒（极品精酿 / 精酿 / 私酿 / 私酿毒药），以及新机器「恒温发酵机」。恒温发酵机具有催陈机的一切功能，但是容量更大，并且能加速其中的酒的发酵，还能提升酒的品级。
+[hr][/hr]
 
-[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/MakeBrewerGreatAgain/Workshop/screenshots/02-%E6%81%92%E6%B8%A9%E5%8F%91%E9%85%B5%E6%9C%BA.png[/img]
+[h1]一、酿酒[/h1]
 
-新增内容：干净的酒瓶、啤酒花与种子、四种啤酒、恒温发酵机、红魔鬼酿酒厂的升级[空瓶回收项目]、新的联系人，田所浩二。
+从红魔鬼酿酒厂的工人那里搞来用过的空瓶，拿到水龙头下冲一冲，就是能酿酒的干净啤酒瓶。
 
-[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/MakeBrewerGreatAgain/Workshop/screenshots/03-114514%E5%90%8D%E7%89%87.png[/img]"
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/01-%E9%85%BF%E9%80%A0%E6%B5%81%E7%A8%8B.png[/img]
+
+[h1]二、两种新作物[/h1]
+
+大麦：18 工作量成熟，提前收割还能获得麦芽，在合适的时候收割还能够增产种子。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/02-%E5%A4%A7%E9%BA%A6%E7%A7%8D%E6%A4%8D.png[/img]
+
+啤酒花：21 工作量成熟，多年生，是提升啤酒品质的关键物品，但在空间站上只有红魔鬼酒厂手里有种子，获取途径或许与一则传说有关。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/09-%E5%95%A4%E9%85%92%E8%8A%B1%E7%A7%8D%E6%A4%8D.png[/img]
+
+[h1]三、精酿啤酒[/h1]
+
+原料放多少、麦芽与啤酒花的比例、瓶里的水质，都会影响啤酒的品质。总共有四个等级：顶级精酿、精酿啤酒、私酿啤酒、私酿毒药。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/03-%E5%95%A4%E9%85%92%E8%AF%84%E7%BA%A7.png[/img]
+
+[h1]四、自制努特加[/h1]
+
+[h2]1、营养果原浆[/h2]
+
+营养果整颗、切块、切碎都能进酿酒，发酵结束时，一部分水会按评分换成酒精，得到营养果原浆。切得越碎，产量越高，加入麦芽进行糖化也能提高酒精产量。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/04-%E8%90%A5%E5%85%BB%E6%9E%9C%E5%8E%9F%E6%B5%86%E8%AF%84%E7%BA%A7.png[/img]
+
+[h2]2、蒸馏[/h2]
+
+软管加废金属，拼出土法蒸馏器。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/05-%E8%92%B8%E9%A6%8F%E5%99%A8.png[/img]
+
+把蒸馏器架到加热板上，输入放原浆、输出放空瓶，等加热到酒精的沸点，就能分毫不差的收集到空瓶里。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/06-%E8%92%B8%E9%A6%8F%E6%8F%90%E7%BA%AF%E9%85%92%E7%B2%BE.png[/img]
+
+[h2]3、灌装努特加[/h2]
+
+洗干净的努特加瓶灌满，用努特加封盖器一封，机器会自动检测酒精浓度和剩下的水质，打上对应的标签和瓶盖：
+
+· 酒精 ≥71% → 生命之水
+· 21%~70%，水质好 → ETALOV
+· 21%~70%，水质一般 → “伏特加”
+· 21%~70%，水质差 → “第二好”
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/07-%E5%8A%AA%E7%89%B9%E5%8A%A0%E4%BA%A7%E7%BA%BF.png[/img]
+
+[h1]五、恒温发酵机[/h1]
+
+杰克逊博士那里买的大机器：有催陈机的基础功能。能够加速酒类的发酵，还能提高其中发酵的酒的品质。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/08-%E6%81%92%E6%B8%A9%E5%8F%91%E9%85%B5%E6%9C%BA.png[/img]
+
+[h1]六、其它小东西[/h1]
+
+· 搅拌机配方：啤酒花搅出咖啡豆糊，大麦、麦芽也能搅碎。
+· 茶匙与镊子：从可合并的原料里精确取出一份，10 千卡 / 1 千卡
+· 刀可以切营养果：每 100 千卡能切出一块营养果块，块能够切成营养果碎，会损失一半的热量，但是能够提升营养果原浆的酒精含量
+· 空瓶回收项目：人脉升级，解锁后拨 114514 找田所浩二订空瓶
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/screenshots/03-114514%E5%90%8D%E7%89%87.png[/img]
+
+[hr][/hr]
+
+[h1]七、室内温室[/h1]
+
+王尔德处升级「建造温室」之后，夜间去处里多出一个「室内温室」，人脉页面也多出一页「温室」。温室里有一台控制台：左边是模组栏，右边是 15×24 格的水培架，架子上开局就送两台「温室水培系统」。
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/guides/greenhouse-overview.png[/img]
+
+[h2]1、温室水培系统[/h2]
+
+5×3 的机器，只在温室中运行。效率是原版水培机的两倍，而且固定为最佳水肥：水质、营养液、矿物质都不会拖低产量，收成永远按最高档结算。买下「建造温室」之后，杰克逊博士和退休农夫都会开始卖它。
+
+[h2]2、温室模组 I[/h2]
+
+300 信用点。没买之前，控制台里模组这一栏整栏都不显示；买下之后出现 9×7 的模组格，模组栏里的模组作用于温室内的所有水培机。
+
+[h2]3、送货员[/h2]
+
+500 信用点。每天营业前，如果温室里有收成，他会把昨天温室里的收获打包成「第 N 天的包裹」送来，运费 12 信用点。付钱之后双击包裹，里面的作物会全部进入仓库。没有包裹的日子他不会来。
+
+[h2]4、园丁[/h2]
+
+500 信用点。每天营业前他会来找你，把种子委托给他，拉下卷帘门结束营业时他会把种子种进温室内空着的种子槽。注意：请勿将特殊方式种植的种子交给他，例如酿酒拓展的种子——原版水培系统种不了的作物他也种不了（他会在日志里说明）。
+
+[h2]5、不耗水也不耗电[/h2]
+
+室内温室以及温室水培系统不耗水也不耗电；在这里种植的违禁作物不会被治安部查到。
+
+[h2]6、独立存档[/h2]
+
+温室内的物品单独存档，位置在：
+
+C:\Users\<你的用户名>\AppData\LocalLow\Questing Goose Studio\Probably Stolen\ModData\make_brewer_great_again
+
+跟着游戏存档 / 读档一起写读；机器、种子、生长进度、产物、模组都会原样保留，不占用也不修改原版存档。
+
+[hr][/hr]
+
+[h1]全部物品一览[/h1]
+
+[img]https://raw.githubusercontent.com/jieuzi/Make-Brewer-Great-Again/main/Workshop/art/items-overview.png[/img]"
 	"tags"		"Mod,Simplified Chinese,Gameplay,Quality of Life"
-	"changenote"		"首次发布：啤酒酿造工艺、啤酒花作物、恒温发酵机、红魔鬼仓库与空瓶回收。"
+	"changenote"		"修复了一些bug"
 }
